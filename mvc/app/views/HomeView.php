@@ -8,6 +8,7 @@
 <body>
     <h1>hola</h1>
     <a href="/mvc/app/views/InfoView.php"> info</a>
-    <a href=""></a>
+    <a href="/mvc/app/views/LengView.php">lenguajes</a>
+    <a href="/mvc/app/views/FormView.php">formulario</a>
 </body>
 </html>
