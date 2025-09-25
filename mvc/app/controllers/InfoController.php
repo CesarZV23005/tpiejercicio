@@ -6,7 +6,7 @@ class HomeController{
 
 
     public function index(){
-        return $this->view('HomeView',['title'=>'Home']);
+        return $this->view('InfoView',['title'=>'Info']);
     }
 
     public function view($vista,$data=[]){
