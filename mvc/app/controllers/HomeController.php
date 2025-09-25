@@ -4,11 +4,12 @@
 namespace app\controllers;
 class HomeController{
 
-
     public function index(){
         return $this->view('HomeView',['title'=>'Home']);
     }
-
+    public function info(){
+        include __DIR__ .'/../views/InfoView.php';
+    }
     public function view($vista,$data=[]){
         //require_once("../app/views/HomeView.php");
         extract($data);
