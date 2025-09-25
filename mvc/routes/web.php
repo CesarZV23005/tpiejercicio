@@ -2,6 +2,8 @@
 
 
 use lib\Route;
+use app\controllers;
+use app\controllers\HomeController;
 
 
 Route::get("/", function(){
@@ -12,6 +14,8 @@ Route::get("/", function(){
 Route::get("/inicio", function(){
     echo "Inicio";
 });
+
+Route::get("/Home", [HomeController::class,"index"]);
 
 
 Route::dispatch();
